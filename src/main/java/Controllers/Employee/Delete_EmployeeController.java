@@ -125,7 +125,7 @@ public class Delete_EmployeeController implements Initializable {
             pst.setString(1, emp_id.getText());
             emp_id.getText();
             pst.executeUpdate();
-            JOptionPane.showMessageDialog(null, "Deleted Selected Student");
+            JOptionPane.showMessageDialog(null, "Deleted Selected Employee");
             clearFields();
             autoRefresh();
 
