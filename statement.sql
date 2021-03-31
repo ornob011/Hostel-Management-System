@@ -1,0 +1,16 @@
+CREATE TABLE `hostel_management`.`leaved_employee` ( `id` INT NOT NULL , `name` VARCHAR(50) NULL DEFAULT NULL , `hostel_name` VARCHAR(20) NULL DEFAULT NULL , `tel` VARCHAR(15) NULL DEFAULT NULL , `emg_tel` VARCHAR(15) NULL DEFAULT NULL, `leave_date` VARCHAR(50) NULL DEFAULT NULL) ENGINE = InnoDB;
+
+CREATE TABLE `hostel_management`.`employee_fee`(`employeeid` INT NOT NULL , `year` VARCHAR(50) NULL DEFAULT NULL , `salary` INT NOT NULL , `month` VARCHAR(50) NULL DEFAULT NULL) ENGINE = InnoDB;
+
+CREATE TABLE `hostel_management`.`register_Employee` ( `id` INT NOT NULL AUTO_INCREMENT , `name` VARCHAR(50) NULL DEFAULT NULL , `hostel_name` VARCHAR(20) NULL DEFAULT NULL , `tel` VARCHAR(15) NULL DEFAULT NULL , `emg_tel` VARCHAR(15) NULL DEFAULT NULL, PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+CREATE TABLE `hostel_management`.`leaved_students` ( `id` INT NOT NULL , `name` VARCHAR(50) NULL DEFAULT NULL , `reg_no` INT NOT NULL , `email` VARCHAR(25) NULL DEFAULT NULL , `phonenumber` VARCHAR(15) NULL DEFAULT NULL, `hostel_name` VARCHAR(20) NULL DEFAULT NULL, `address` VARCHAR(50) NULL DEFAULT NULL , `guardname` VARCHAR(50) NULL DEFAULT NULL , `guardtel` VARCHAR(15) NULL DEFAULT NULL, `leave_date` VARCHAR(50) NULL DEFAULT NULL) ENGINE = InnoDB;
+
+
+CREATE TABLE `hostel_management`.`register_Students` ( `id` INT NOT NULL AUTO_INCREMENT, `name` VARCHAR(50) NULL DEFAULT NULL , `reg_no` INT NOT NULL , `email` VARCHAR(25) NULL DEFAULT NULL , `phoneNumber` VARCHAR(15) NULL DEFAULT NULL, `hostel_name` VARCHAR(20) NULL DEFAULT NULL, `address` VARCHAR(50) NULL DEFAULT NULL , `guardName` VARCHAR(50) NULL DEFAULT NULL , `guardTel` VARCHAR(15) NULL DEFAULT NULL, PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+CREATE TABLE `hostel_management`.`student_fee`(`studentid` INT NOT NULL , `year` VARCHAR(50) NULL DEFAULT NULL , `fee` VARCHAR(50) NULL DEFAULT NULL , `month` VARCHAR(50) NULL DEFAULT NULL) ENGINE = InnoDB;
+
+
