@@ -287,7 +287,7 @@ Admin can delete the left out student's profile.
 
 #### **Find Hostel living Students**
 Admin can find all the students and their information who are living at the hostel.
-![Admin’s access to appointments](assets/p-013.png)
+![Admin’s access to appointments](assets/hall_students.png)
     <p align="center">
     Hostel living Students </p>
 
@@ -295,7 +295,7 @@ Admin can find all the students and their information who are living at the host
 #### **Find left-out Students**
 Admin can find all the left-out students and their information.
 
-![Admin’s access to appointment cancellation](assets/p-014.png)
+![Admin’s access to appointment cancellation](assets/left_students.png)
     <p align="center">
     Left-out Students </p>
 
@@ -317,7 +317,7 @@ Admin can add new employees by filling the form.
 
 ![Admin’s access to pharmacy suppliers](assets/p-017.png)
     <p align="center">
-    Visualization of pharmacy suppliers </p>
+    Employee Profile Creation </p>
 
 #### **Update Employee Profile**
 Admin can update existing employees' profile.
@@ -344,7 +344,7 @@ Admin can find all the left-out stuffs and their information.
 
 ![Admin’s access to appointment cancellation](assets/p-021.png)
     <p align="center">
-    Left-out Students </p>
+    Left-out Stuffs </p>
 
 #### **Employee Payment Management**
 Admin can manage the payment of employees. 
